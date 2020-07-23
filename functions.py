@@ -23,7 +23,7 @@ def clean_freq(text):
     stopwords_list += ("''","``", "'s", "\\n\\n" , '...', 'i\\','\\n',
                        '•', "i", 'the', "'m", 'i\\', "'ve", "don\\'t",
                       "'re", "\\n\\ni", "it\\", "'ll", 'you\\', "'d", "n't",
-                      '’', 'app') 
+                      '’', 'app', 'wa', 'ha', 'wo', 'u',"'s", "ve","'m","wo","doe") 
     
     from nltk import word_tokenize
     tokens = word_tokenize(text)
@@ -58,7 +58,7 @@ def clean_tokens(text):
     ##these are parts of most comment strings
     stopwords_list += ("''","``", "n't", 'app', "...", "n't",
                        "wa","ve", "ha","'", 'wa', 'ha', 'ca',
-                       'doe' 'wo','u') 
+                       'doe' 'wo','u',"'s","'ve", "ve","'m","wo","doe") 
   
     
     from nltk import word_tokenize
@@ -90,3 +90,33 @@ def clean_comment(comment):
     stopped_tokens = [w.lower() for w in lemma_tokens if w.lower() not in stopwords_list]
     
     return ' '.join(stopped_tokens)
+
+def good_clean_tokens(text):
+    '''A pre-processing function that cleans text of stopwords, punctuation and capitalization, 
+    tokenizes, lemmatizes 
+
+    text - the text to be cleaned in string format'''
+
+    import nltk
+    from nltk.corpus import stopwords
+    #importing and enstantiating lemmatizer 
+    from nltk.stem import WordNetLemmatizer   
+    lemmatizer = nltk.stem.WordNetLemmatizer()
+     # Get all the stop words in the English language  
+    stopwords_list = stopwords.words('english')
+   
+    #importing additional function to execute
+    import string   
+    #remove punctuation
+    stopwords_list += list(string.punctuation)
+    ##adding adhoc all strings that don't appear to contribute, added 'love, great, good, really, amazing' iteratively as 
+    ##these are parts of most comment strings
+    stopwords_list += ("''","``", "n't", 'app', 'love', 'great', 'good', 'really', 'wa', 'ha',
+                     '...', "'s", 'amazing', 've', 'excellent', 'awesome', 'wonderful', 'fantastic', "ve") 
+  
+    
+    from nltk import word_tokenize
+    tokens = word_tokenize(text)
+    lemma_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+    stopped_tokens = [w.lower() for w in lemma_tokens if w.lower() not in stopwords_list]
+    return stopped_tokens

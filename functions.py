@@ -120,7 +120,7 @@ def clean_comment(comment):
     lemma_tokens = [lemmatizer.lemmatize(token) for token in tokens]
     
     stopwords_list = stopwords.words('english')
-    stopwords_list += ("''","``", ".", 'app', 'apps', 'ca', 'wa', 'ha', 'doe', 'wo', 'u') 
+    stopwords_list += ("''","``", ".", 'app', 'apps', 'ca',"--", 'wa', 'ha', 'doe', 'wo', 'u') 
 
     #remove punctuation, capitalization, and stopwords
     stopwords_list += list(string.punctuation)
@@ -148,8 +148,8 @@ def good_clean_tokens(text):
     stopwords_list += list(string.punctuation)
     ##adding adhoc all strings that don't appear to contribute, added 'love, great, good, really, amazing' iteratively as 
     ##these are parts of most comment strings
-    stopwords_list += ("''","``", "n't", 'app', 'love', 'apps', 'great', 'good', 'really', 'wa', 'ha',
-                     '...', "'s", 'amazing', 've', 'excellent', 'awesome', 'wonderful', 'fantastic', "ve") 
+    stopwords_list += ("''","``", "n't", 'app', 'love', 'apps', 'great', 'good', 'really', 'wa', 'ha',"I", "l",
+                     '...', ,"--","'s", 'amazing', 've', 'excellent', 'awesome', 'wonderful', 'fantastic', "ve") 
   
     
     from nltk import word_tokenize

@@ -149,7 +149,7 @@ def good_clean_tokens(text):
     ##adding adhoc all strings that don't appear to contribute, added 'love, great, good, really, amazing' iteratively as 
     ##these are parts of most comment strings
     stopwords_list += ("''","``", "n't", 'app', 'love', 'apps', 'great', 'good', 'really', 'wa', 'ha',"I", "l",
-                     '...', ,"--","'s", 'amazing', 've', 'excellent', 'awesome', 'wonderful', 'fantastic', "ve") 
+                     '...', "--","'s", 'amazing', 've', 'excellent', 'awesome', 'wonderful', 'fantastic', "ve") 
   
     
     from nltk import word_tokenize

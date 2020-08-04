@@ -203,3 +203,38 @@ def six_cluster_wrdcld(xtrain):
         cloud[cluster]=fig
         plt.show()
     return cloud
+
+def plot_coefs(df, classifier, scaler, col):
+    '''Plotting function that takes a dataframe and classifier model
+    and plots the top ten most negative coefficients
+    
+    df - dataframe that is being analysed
+    classifier - multinomial classifier
+    '''
+    #importing libraries
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    feats = scaler.get_feature_names()
+
+    #creating a dictionary for each of the classes and enumerating them in 
+    #order to track the coefficients for each:
+    class_dict = {}
+    for i, cat in enumerate(classifier.classes_):
+        class_dict[cat] = classifier.coef_[i]
+    
+    
+    #creatging a dataframe of the output
+    class_coefs = pd.DataFrame(class_dict)
+    
+    #creating a column that tracks the features for each
+    class_coefs['feats'] = feats
+    
+    #setting the index to each of the features:
+    class_coefs.set_index('feats', inplace=True)
+    
+    #slicing the most meaningful negative words:
+    class_coefs[col].sort_values(ascending=False).head(15).plot(kind='barh')
+    plt.title('Most important words used to classify a review:', fontsize=14)
+    plt.ylabel('Word')
+    plt.xlabel('Mathmetical Coefficient')

@@ -204,7 +204,7 @@ def six_cluster_wrdcld(xtrain):
         plt.show()
     return cloud
 
-def plot_coefs(df, classifier, scaler, col):
+def plot_coefs(classifier, scaler, col):
     '''Plotting function that takes a dataframe and classifier model
     and plots the top ten most negative coefficients
     
@@ -235,6 +235,29 @@ def plot_coefs(df, classifier, scaler, col):
     
     #slicing the most meaningful negative words:
     class_coefs[col].sort_values(ascending=False).head(15).plot(kind='barh')
-    plt.title('Most important words used to classify a review:', fontsize=14)
-    plt.ylabel('Word')
+    plt.title('Most important terms used to classify a review:', fontsize=14)
+    plt.ylabel('Term')
     plt.xlabel('Mathmetical Coefficient')
+
+
+
+def generate_wordcloud(words, mask):
+    '''This function takes in text and a mask as a .png and generates a wordcloud in the 
+    shape of the mask..
+
+    words - a string of text
+    mask - .png file eg: nmask = np.array(Image.open('mask.png')) you'll need the file
+    path if the file isn't local'''
+
+    import matplotlib.pyplot as plt
+    from wordcloud import WordCloud
+
+
+    word_cloud = WordCloud(width  = 500, height = 300, background_color='white', 
+                           contour_color = 'purple', contour_width = 1, mask=mask).generate(words)
+    plt.figure(figsize=(10,8),facecolor = 'white', edgecolor='blue')
+    plt.imshow(word_cloud)
+    plt.axis('off')
+    plt.tight_layout(pad=0)
+    plt.show()
+    

@@ -11,7 +11,7 @@ A comparative analysis of top 5 grossing health/wellness apps -**Natural Laguage
 
 1.) Calm
 2.) MyFitnessPal
-3.)  Headspace
+3.) Headspace
 4.) BetterMe(Me)
 5.) Fitbit
 

@@ -27,7 +27,7 @@ In the positive reviews(highest rated), 4 main areas were identified in order of
 * Ease of Use and 
 * Weight-Loss
 <img src='topic_frequency_5_star.png' width=10% alignment=center>
-<html lang="en" xmlns="pos_vis.html">
+<html src="pos_vis.html">
 
 In the negative reviews(lowest rated), 3 main areas were identified in order of imporance: 
 * Technical Issues 

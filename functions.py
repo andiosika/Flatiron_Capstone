@@ -21,7 +21,7 @@ def clean_freq(text):
     ##adding adhoc all strings that don't appear to contribute, added 'article, page and wikipedia' iteratively as 
     ##these are parts of most comment strings
     stopwords_list += ("''","``", "'s", "\\n\\n" , '...', 'i\\','\\n',
-                       '•', "i", 'the', "'m", 'i\\', "'ve", "don\\'t",
+                       '•', "i", 'the', "'m", 'i\\', "'ve", "don\\'t", "'ll",
                       "'re", "\\n\\ni", "it\\", "'ll", 'you\\', "'d", "n't",
                       '’', 'app', 'wa', 'ha', 'wo', 'u',"'s", "ve","'m","wo","doe") 
     
@@ -57,7 +57,7 @@ def clean_tokens(text):
     ##adding adhoc all strings that don't appear to contribute, added 'article, page and wikipedia' iteratively as 
     ##these are parts of most comment strings
     stopwords_list += ("''","``", "n't", 'app', "...", "n't",
-                       "wa","ve", "ha","'", 'wa', 'ha', 'ca',
+                       "wa","ve", "ha","'", 'wa', 'ha', 'ca', "'ll",
                        'doe' 'wo','u',"'s","'ve", "ve","'m","wo","doe",
                        "'ve", "'d") 
   
@@ -92,8 +92,10 @@ def cleaner_tokens(text):
     stopwords_list += ("''","``", "n't", 'app', "...", "n't", "'d"
                        "wa","ve", "ha","'", 'wa', 'ha', 'ca', "'re"
                        'doe' 'wo','u',"'s","'ve", "ve","'m","wo","doe",
-                       'love', 'great', 'excellent', 'awesome', 'really', 'good',
-                       'rubbish', 'terrible', 'worst', 'insane'
+                       'love', 'great', 'excellent', 'awesome', 'really', 'good', 'brilliant',
+                       'fantastic', 'amazing', 'wonderful', 
+                       'rubbish', 'terrible', 'worst', 'insane', 'useless', 'horrible',
+                       'awful', 'stupid', 'suck', 'sucks'
                        ) 
   
     

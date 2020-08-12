@@ -22,11 +22,16 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 
-In the positive reviews(highest rated), 4 main areas were identified in order of importance: 
+In the positive reviews(highest rated), 
+<img src='images/thumbs_up.png' width=10% alignment=center>
+
+4 main areas were identified in order of importance: 
 * Well-Being, Information 
 * Ease of Use and 
 * Weight-Loss
-<img src='images/topic_frequency_5_star' width=10% alignment=center>
+<img src='images/topic_frequency_5_star.png' width=10% alignment=center>
+
+An interactive tool to visualize the topics can be found here:
 <html src='htmls/pos_vis.html' width=10% aligment=left>
 
 In the negative reviews(lowest rated), 3 main areas were identified in order of imporance: 

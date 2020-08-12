@@ -9,11 +9,11 @@ A comparative analysis of top 5 grossing health/wellness apps -**Natural Laguage
 
 **Findings** The top five grossig health/wellness apps in order are:
 
-1.) Calm
-2.) MyFitnessPal
-3.) Headspace
-4.) BetterMe(Me)
-5.) Fitbit
+1) Calm
+2) MyFitnessPal
+3) Headspace
+4) BetterMe(Me)
+5) Fitbit
 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 

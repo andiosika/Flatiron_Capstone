@@ -25,6 +25,8 @@ Once positive and negative sentiment was classified, cluster segment analysis wa
 In the positive reviews(highest rated), 
 <img src='images/thumbs_up.png' width=10% alignment=center>
 
+
+
 4 main areas were identified in order of importance: 
 * Well-Being, Information 
 * Ease of Use and 
@@ -38,7 +40,7 @@ In the negative reviews(lowest rated), 3 main areas were identified in order of 
 * Technical Issues 
 * Billing Terms 
 * Ease of Use
-<img src='topic_frequency_1_star.png' width=10% alignment=center>
+<img src='images/topic_frequency_1_star.png' width=10% alignment=center>
 
 These findings would support the following recommendations for health/wellness app makers:
 

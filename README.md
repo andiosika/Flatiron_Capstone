@@ -14,28 +14,29 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 **Findings** The top five grossig health/wellness apps in order from left to right are:
 
-<img src='images/top_apps.png' width=30% aligment=center>
+<img src='images/top_apps.PNG' width=30% aligment=center>
 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 
-## Positive review results: (highest rated), 
+**Positive review results: (highest rated),**
+
 <img src='images/thumbs_up.PNG' width=20% alignment=left>
 
-**4 main areas were identified:** 
-<img src='images/pos_topic_dist.png' width=80% alignment=center>
+4 main areas were identified:
+<img src='images/pos_topic_dist.png' width=60% alignment=center>
 
 An interactive tool to visualize the topics can be found here:
 <html src='htmls/pos_vis.html' width=50% aligment=left>
 
 
-## Negative review results: (lowest rated),
+**Negative review results: (lowest rated)***
 <img src='images/thumbs_down.PNG' width=20% alignment=center>
 
 3 main areas were identified: 
 <img src='images/neg_topic_dist.png' width=50% alignment=center>
 
 An interactive tool to visualize the topics can be found here:
-<html src='htmls/neg_vis.html' width=80% aligment=left>
+<html src='htmls/neg_vis.html' width=60% aligment=left>
 
 These findings would support the following recommendations for health/wellness app makers:
 
@@ -58,11 +59,6 @@ Reviews are important to consumers.  Nearly [95 percent of shoppers](https://spi
 
 [App Annie](https://www.appannie.com/apps/google-play/top-chart/?country=US&category=19&device=&date=2020-04-05&feed=All&rank_sorting_type=rank&page_number=0&page_size=100&table_selections=) is a decision-making platform for the mobile app economy. App Annie combines the analytics of one's own apps with a granular understanding of the competition and market to provide a unique 360-degree view of one's mobile business.  It was used in  combination with [google play scraper](https://pypi.org/project/google-play-scraper/) to obtain the data for this project. 
 
-
-> **Questions to be answered:**
-* What are the top grossing health and wellness apps? 
-* What's in a positive review versus a negative review?
-* What insight can be gleaned from reviews to provide business intelligence for next-gen apps?
 
 Additional reading/resources:
 

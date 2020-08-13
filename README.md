@@ -54,6 +54,7 @@ Ease of Use -
 
 An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
 
+
 These findings would support the following recommendations for health/wellness app makers:
 
 1) Exploit app-specific features like well-being (mediation, sleep) or weight loss features.

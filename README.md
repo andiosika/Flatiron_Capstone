@@ -14,31 +14,23 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 **Findings** The top five grossig health/wellness apps in order from left to right are:
 
-<img src='images/top-apps.png' width=30% aligment=center>
+<img src='images/top_apps.png' width=30% aligment=center>
 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 
-## Positive review results: (highest rated), 
-<img src='images/thumbs_up.png' width=20% alignment=left>
+## Positive review results: (highest rated), <img src='images/thumbs_up.PNG' width=20% alignment=left>
 
-4 main areas were identified in order of importance: 
-* Well-Being
-* Information 
-* Ease of Use and 
-* Weight-Loss
-<img src='images/pos_topic_dist.png' width=40% alignment=center>
+4 main areas were identified: 
+<img src='images/pos_topic_dist.png' width=50% alignment=center>
 
 An interactive tool to visualize the topics can be found here:
 <html src='htmls/pos_vis.html' width=50% aligment=left>
 
 
-## Negative review results: (lowest rated), 
-<img src='images/thumbs_down.png' width=20% alignment=center>
-3 main areas were identified in order of imporance: 
-* Technical Issues 
-* Billing Terms 
-* Ease of Use
-<img src='images/neg_topic_dist.png' width=40% alignment=center>
+## Negative review results: (lowest rated), <img src='images/thumbs_down.PNG' width=20% alignment=center>
+
+3 main areas were identified: 
+<img src='images/neg_topic_dist.png' width=50% alignment=center>
 
 An interactive tool to visualize the topics can be found here:
 <html src='htmls/neg_vis.html' width=50% aligment=left>

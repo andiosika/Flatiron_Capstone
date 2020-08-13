@@ -10,7 +10,7 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 * What insight can be gleaned from reviews to provide business intelligence for next-gen apps?
 
 
-**Methodology** Natural Language Processing used with a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' in the classifier, they proved to be not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. To identify the core feedback insight, the highest and lowest rating reviews were analyzed separately with non-informative adjectives removed. Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or LDA were experimented with. LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
+**Methodology** Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' in the classifier, they proved to be not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. To identify the core feedback insight, the highest and lowest rating reviews were analyzed separately with non-informative adjectives removed. Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or LDA.  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
 
 **Findings** The top five grossig health/wellness apps in order are:
 
@@ -72,7 +72,6 @@ Reviews are important to consumers.  Nearly [95 percent of shoppers](https://spi
 * What are the top grossing health and wellness apps? 
 * What's in a positive review versus a negative review?
 * What insight can be gleaned from reviews to provide business intelligence for next-gen apps?
-
 
 Additional reading/resources:
 

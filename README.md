@@ -23,28 +23,32 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 
 In the positive reviews(highest rated), 
-<img src='images/thumbs_up.png' width=10% alignment=center>
-
-
+<img src='images/thumbs_up.png' width=20% alignment=left>
 
 4 main areas were identified in order of importance: 
-* Well-Being, Information 
+* Well-Being
+* Information 
 * Ease of Use and 
 * Weight-Loss
-<img src='images/topic_frequency_5_star.png' width=10% alignment=center>
+<img src='images/pos_topic_dist.png' width=40% alignment=center>
 
 An interactive tool to visualize the topics can be found here:
-<html src='htmls/pos_vis.html' width=10% aligment=left>
+<html src='htmls/pos_vis.html' width=50% aligment=left>
 
-In the negative reviews(lowest rated), 3 main areas were identified in order of imporance: 
+In the negative reviews(lowest rated), 
+<img src='images/thumbs_down.png' width=20% alignment=center>
+3 main areas were identified in order of imporance: 
 * Technical Issues 
 * Billing Terms 
 * Ease of Use
-<img src='images/topic_frequency_1_star.png' width=10% alignment=center>
+<img src='images/neg_topic_dist.png' width=40% alignment=center>
+
+An interactive tool to visualize the topics can be found here:
+<html src='htmls/neg_vis.html' width=50% aligment=left>
 
 These findings would support the following recommendations for health/wellness app makers:
 
-1) Exploit app-specific features like well-being, sleep or weight loss features.
+1) Exploit app-specific features like well-being (mediation, sleep) or weight loss features.
 2) Improve access to relevant information to keep users best informed.
 3) Resolve technical issues, syncing / updates 
 4) Be clear on billing terms

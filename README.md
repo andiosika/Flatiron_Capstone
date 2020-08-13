@@ -18,12 +18,14 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative:
 
-<img src='images/neg_words.PNG' width=50% aligment=left>    <img src='images/pos_words.PNG' width=50% aligment=right>
+<img src='images/neg_words.png' width=50% aligment=left>    <img src='images/pos_words.png' width=50% aligment=right>
 
 
 Cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 <img src='images/pos_visual.PNG' width=70% alignment=center>
 
+
+___
 **Positive review results: (highest rated),**
 
 <img src='images/thumbs_up.PNG' width=20% alignment=center>

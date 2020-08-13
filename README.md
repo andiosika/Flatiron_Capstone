@@ -1,4 +1,4 @@
-# NLP Natural Language Processing Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using LDA: Latent Dirichlet Allocation.
+# NLP Natural Language Processing using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using LDA: Latent Dirichlet Allocation.
 
 ## Abstract: 
 A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.

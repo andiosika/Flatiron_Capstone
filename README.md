@@ -12,17 +12,13 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 **Methodology** Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' in the classifier, they proved to be not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. To identify the core feedback insight, the highest and lowest rating reviews were analyzed separately with non-informative adjectives removed. Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or LDA.  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
 
-**Findings** The top five grossig health/wellness apps in order are:
+**Findings** The top five grossig health/wellness apps in order from left to right are:
 
-1) Calm
-2) MyFitnessPal
-3) Headspace
-4) BetterMe(Me)
-5) Fitbit
+<img src='images/top-apps.png' width=30% aligment=center>
 
 Once positive and negative sentiment was classified, cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
 
-In the positive reviews(highest rated), 
+## Positive review results: (highest rated), 
 <img src='images/thumbs_up.png' width=20% alignment=left>
 
 4 main areas were identified in order of importance: 
@@ -35,7 +31,8 @@ In the positive reviews(highest rated),
 An interactive tool to visualize the topics can be found here:
 <html src='htmls/pos_vis.html' width=50% aligment=left>
 
-In the negative reviews(lowest rated), 
+
+## Negative review results: (lowest rated), 
 <img src='images/thumbs_down.png' width=20% alignment=center>
 3 main areas were identified in order of imporance: 
 * Technical Issues 
@@ -57,7 +54,7 @@ These findings would support the following recommendations for health/wellness a
 
 # Background: 
 
-<img src='yogapic.png' width=10% alignment=center>
+<img src='images/yogapic.png' width=10% alignment=center>
 
 Mobile or **mHealth** is defined by the [WHO](https://www.who.int/goe/publications/goe_mhealth_web.pdf) as the “medical and public health practice supported by mobile devices, such as mobile phones, patient monitoring devices, personal digital assistances and other wireless devices”.  
 

@@ -76,7 +76,7 @@ These findings would support the following recommendations for health/wellness a
 2) Improve access to relevant information to keep users best informed.
 3) Resolve technical issues, syncing / updates 
 4) Be clear on billing terms
-5) Maximize ease of uses for features since it was highlighted 
+5) Maximize ease of uses for features since it was a topic in positive as well as negative reviews
 
 # Main Files:
 * wellnessappreview.ipynb - main notebook with code, eda and findings

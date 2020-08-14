@@ -78,10 +78,6 @@ These findings would support the following recommendations for health/wellness a
 4) Be clear on billing terms
 5) Maximize ease of uses for features since it was a topic in positive as well as negative reviews
 
-# Main Files:
-* wellnessappreview.ipynb - main notebook with code, eda and findings
-* appreviews - non-technical presentation
-* htmls/pos_vis.html, htmls/neg_vis.html - interactive LDA modeling to show outcomes
 
 # Background: 
 

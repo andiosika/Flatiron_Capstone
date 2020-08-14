@@ -16,12 +16,13 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 <img src='images/top_apps.PNG' width=70% aligment=center>
 
-As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative:
+As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative as product improvement insight:
 
-<img src='images/neg_words.png' width=50% aligment=left>    <img src='images/pos_words.png' width=50% aligment=right>
+<img src='images/neg_words.png' width=35% aligment=left>    <img src='images/pos_words.png' width=35% aligment=right>
 
 
-Cluster segment analysis was used to identify topics using Latent Dirichlet Allocation (LDA).
+Cluster segment analysis was conducted on negative and positive segments individually used to identify topics using Latent Dirichlet Allocation (LDA).  This revealed various topics and areas of focus by the terms used in each cluster.
+
 <img src='images/pos_visual.PNG' width=70% alignment=center>
 
 
@@ -35,9 +36,14 @@ ___
 <img src='images/pos_topic_dist.png' width=60% alignment=left>
 
 Examples of terms used most frequently in each topic are below:
-Well Being -  'meditation', 'sleep' 
-Information - 'track', 'easy', 'keep', use'
-Ease of Use - 
+|Area | Terms |
+|:---| :---|
+|Well-Being | 'meditation', 'sleep', 'workout' |
+|Information |'information', 'monitor', 'report', 'result'|
+|Ease of Use |'track', 'easy', 'keep', use'|
+|Weight-Loss|'weight', 'lose', 'active', log'|
+
+
 An interactive tool to visualize the topics can be found in this repo under htmls/pos_vis.html
 
 ___
@@ -50,9 +56,11 @@ ___
 <img src='images/neg_topic_dist.png' width=50% alignment=left>
 
 Examples of terms used most frequently in each topic are below:
-Technical -  'meditation', 'sleep' 
-Billing Terms - 'track', 'easy', 'keep', use'
-Ease of Use -
+|Area | Terms |
+|:---| :---|
+|Technical | 'log', 'sync', 'error' , 'device'|
+|Billing Terms| 'free', 'trial', 'pay', 'subscription'|
+|Ease of Use | 'alarm', 'easy', 'nope', 'friendly'|
 
 An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
 
@@ -65,6 +73,10 @@ These findings would support the following recommendations for health/wellness a
 4) Be clear on billing terms
 5) Maximize ease of uses for features since it was highlighted 
 
+# Main Files:
+* wellnessappreview.ipynb - main notebook with code, eda and findings
+* appreviews - non-technical presentation
+* htmls/pos_vis.html, htmls/neg_vis.html - interactive LDA modeling to show outcomes
 
 # Background: 
 

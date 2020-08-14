@@ -1,4 +1,4 @@
-# NLP Natural Language Processing using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using LDA: Latent Dirichlet Allocation.
+# Natural Language Processing (NLP) using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using Latent Dirichlet Allocation (LDA):
 
 # Main Files:
 * wellnessappreview.ipynb - main notebook with code, eda and findings

@@ -1,5 +1,10 @@
 # NLP Natural Language Processing using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using LDA: Latent Dirichlet Allocation.
 
+# Main Files:
+* wellnessappreview.ipynb - main notebook with code, eda and findings
+* appreviews.pdf - non-technical presentation (also available in .pptx)
+* htmls/pos_vis.html, htmls/neg_vis.html - interactive LDA modeling to show outcomes
+
 ## Abstract: 
 A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
 
@@ -16,7 +21,7 @@ A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage 
 
 <img src='images/top_apps.PNG' width=70% aligment=center>
 
-As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative as product improvement insight:
+As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative for gaining product improvement insight:
 
 <img src='images/neg_words.png' width=35% aligment=left>    <img src='images/pos_words.png' width=35% aligment=right>
 
@@ -29,7 +34,7 @@ Cluster segment analysis was conducted on negative and positive segments individ
 ___
 **Positive review results: (highest rated),**
 
-<img src='images/thumbs_up.PNG' width=20% alignment=center>
+<img src='images/thumbs_up.PNG' width=30% alignment=center>
 
 4 main areas were identified:
 
@@ -49,7 +54,7 @@ An interactive tool to visualize the topics can be found in this repo under html
 ___
 **Negative review results: (lowest rated)***
 
-<img src='images/thumbs_down.PNG' width=20% alignment=center>
+<img src='images/thumbs_down.PNG' width=30% alignment=center>
 
 3 main areas were identified: 
 

@@ -206,6 +206,27 @@ def six_cluster_wrdcld(xtrain):
         plt.show()
     return cloud
 
+def three_cluster_wrdcld(xtrain):
+
+    from wordcloud import WordCloud
+    import matplotlib.pyplot as plt
+
+    cloud = {}
+    for cluster in list(xtrain['3cluster'].unique()):
+        clust_df = xtrain[xtrain['3cluster']==cluster]
+            
+        wrdcld3 = WordCloud(width=400, height=200, background_color="white", 
+                            max_words=5000, contour_width=3, collocations=False, 
+                            contour_color='steelblue')
+        wrdcld3.generate(clust_df['content'].to_string())
+        clustwrdcld = wrdcld3.to_image()
+        fig = plt.imshow(clustwrdcld, interpolation='bilinear')
+        plt.axis('off')
+        plt.title(f'Cluster {cluster} WordCloud:')
+        cloud[cluster]=fig
+        plt.show()
+    return cloud
+
 def plot_coefs(classifier, scaler, col):
     '''Plotting function that takes a dataframe and classifier model
     and plots the top ten most negative coefficients

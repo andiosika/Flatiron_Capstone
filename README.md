@@ -1,4 +1,4 @@
-# NLP Natural Language Processing using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using LDA: Latent Dirichlet Allocation.
+# Natural Language Processing (NLP) using Multi-Classification Support Vector Modeling for Sentiment Analysis & Segmentation using Latent Dirichlet Allocation (LDA):
 
 # Main Files:
 * wellnessappreview.ipynb - main notebook with code, eda and findings
@@ -8,14 +8,14 @@
 ## Abstract: 
 A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
 
-**Business Case/Problem** App reviews can equal conversion rates - higher rated apps are more attractive to reviewers. Gaining insight from these reviews can provide business intelligence for process improvements and future iterations of products.
+**Business Case/Problem** App reviews can increase conversion rates - higher rated apps are more attractive to reviewers. Gaining insight from these reviews can provide business intelligence for process improvements and future iterations of products.
 > **Questions to be answered:**
 * What are the top grossing health and wellness apps? 
 * What's in a positive review versus a negative review?
 * What insight can be gleaned from reviews to provide business intelligence for next-gen apps?
 
 
-**Methodology** Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' in the classifier, they proved to be not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. To identify the core feedback insight, the highest and lowest rating reviews were analyzed separately with non-informative adjectives removed. Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or LDA.  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
+**Methodology** Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' were helpful in the classifier, they were not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. The highest and lowest rating reviews were analyzed separately to more deeply evaluate sentiment to identify possible segments or topics and gain business intelligence.  Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or [LDA](https://ai.stanford.edu/~ang/papers/jair03-lda.pdf).  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
 
 **Findings** The top five grossig health/wellness apps in order from left to right are:
 
@@ -78,10 +78,6 @@ These findings would support the following recommendations for health/wellness a
 4) Be clear on billing terms
 5) Maximize ease of uses for features since it was a topic in positive as well as negative reviews
 
-# Main Files:
-* wellnessappreview.ipynb - main notebook with code, eda and findings
-* appreviews - non-technical presentation
-* htmls/pos_vis.html, htmls/neg_vis.html - interactive LDA modeling to show outcomes
 
 # Background: 
 

@@ -72,7 +72,7 @@ Technical issues were the main topic of discussion in the negative reviews.  Iss
 *An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
 
 
-After reviewing both the positive and negative reviews separately, the findings would support the following recommendations for health/wellness app makers:
+> After reviewing both the positive and negative reviews separately, the findings would support the following **recommendations** for health/wellness app makers:
 
 1) Exploit app-specific features like well-being (mediation, sleep) or weight loss features.
 2) Improve access to relevant information to keep users best informed.

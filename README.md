@@ -48,7 +48,7 @@ Examples of terms used most frequently in each topic are below:
 |Ease of Use |'track', 'easy', 'keep', use'|
 |Weight-Loss|'weight', 'lose', 'active', log'|
 
-
+It's not surprising that app-specific features around well-being involving mediation, sleep, and workouts as well as weight-loss were what people were talking about most freqently in positive reviews, and that users liked being informed.  Ease of use came up as a topic - again, not surprising but informative as being relevant in a positive review.  These are all reasons why users would seek an app in the first place.  
 An interactive tool to visualize the topics can be found in this repo under htmls/pos_vis.html
 
 ___
@@ -66,6 +66,8 @@ Examples of terms used most frequently in each topic are below:
 |Technical | 'log', 'sync', 'error' , 'device'|
 |Billing Terms| 'free', 'trial', 'pay', 'subscription'|
 |Ease of Use | 'alarm', 'easy', 'nope', 'friendly'|
+
+Technical issues were the main topic of discussion in the negative reviews.  Issues with syncing devices along with logins were frequently discussed.  Surprisingly - billing terms were close behind technical in one-star reviews.  Users main complaints were being billed after a free trial or having issues with how they were being charged.  Ease of use came up again in the negative reivews, underlining the point that this is important to users.
 
 An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
 

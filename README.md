@@ -69,15 +69,15 @@ Examples of terms used most frequently in each topic are below:
 
 Technical issues were the main topic of discussion in the negative reviews.  Issues with syncing devices along with logins were frequently discussed.  Surprisingly - billing terms were close behind technical in one-star reviews.  Users main complaints were being billed after a free trial or having issues with how they were being charged.  Ease of use came up again in the negative reivews, underlining the point that this is important to users.
 
-An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
+*An interactive tool to visualize the topics can be found in this repo under htmls/neg_vis.htmls
 
 
-These findings would support the following recommendations for health/wellness app makers:
+After reviewing both the positive and negative reviews separately, the findings would support the following recommendations for health/wellness app makers:
 
 1) Exploit app-specific features like well-being (mediation, sleep) or weight loss features.
 2) Improve access to relevant information to keep users best informed.
 3) Resolve technical issues, syncing / updates 
-4) Be clear on billing terms
+4) Be clear on billing terms 
 5) Maximize ease of uses for features since it was a topic in positive as well as negative reviews
 
 

@@ -33,8 +33,9 @@ Cluster segment analysis was conducted on negative and positive segments individ
 
 ___
 **Positive review results: (highest rated),**
+Non-additive adjectives were removed from the corpus of the positive reviews and further analysis was conducted.
 
-<img src='images/thumbs_up.PNG' width=30% alignment=center>
+<img src='images/thumbs_up.PNG' width=40% alignment=center>
 
 4 main areas were identified:
 
@@ -54,7 +55,9 @@ An interactive tool to visualize the topics can be found in this repo under html
 ___
 **Negative review results: (lowest rated)***
 
-<img src='images/thumbs_down.PNG' width=30% alignment=center>
+Non-additive adjectives were removed from the corpus of the negative reviews and further analysis was conducted.
+
+<img src='images/thumbs_down.PNG' width=40% alignment=center>
 
 3 main areas were identified: 
 

@@ -6,7 +6,10 @@
 * htmls/pos_vis.html, htmls/neg_vis.html - interactive LDA modeling to show outcomes
 
 ## Abstract: 
-A comparative analysis of top 5 grossing health/wellness apps **Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
+A comparative analysis of top 5 grossing health/wellness apps using
+**Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. 
+As well as
+**Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
 
 **Business Case/Problem** App reviews can increase conversion rates - higher rated apps are more attractive to reviewers. Gaining insight from these reviews can provide business intelligence for process improvements and future iterations of products.
 > **Questions to be answered:**

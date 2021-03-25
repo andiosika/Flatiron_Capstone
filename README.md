@@ -20,9 +20,12 @@ As well as
 * What insight can be gleaned from reviews to provide business intelligence for next-gen apps?
 
 
-**Methodology** Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' were helpful in the classifier, they were not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. The highest and lowest rating reviews were analyzed separately to more deeply evaluate sentiment to identify possible segments or topics and gain business intelligence.  Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or [LDA](https://ai.stanford.edu/~ang/papers/jair03-lda.pdf).  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
+## **Methodology** 
+Natural Language Processing using a multinomal linear Support Vector Classification model was applied to identify positive and negative reviews with baseline values of 40% and 28% to realize 92% and 85% recall respectively and 74% accuracy. While terms used to identify positive an negative reviews like 'awesome' and 'horrible' were helpful in the classifier, they were not useful to identify business insights for improvements and how best to maximize existing offerings. With these adjectives stripped from the corpus, overall model performance decreased. The highest and lowest rating reviews were analyzed separately to more deeply evaluate sentiment to identify possible segments or topics and gain business intelligence.  Various methodologies were used for sentiment analysis including KMeans Clustering, visualization and Latent Dirichlet Allocation or [LDA](https://ai.stanford.edu/~ang/papers/jair03-lda.pdf).  LDA provided the greatest insights to what reviewers were talking about and details and an interactive tool can be found in the Negative Reviews section and Positive Reviews sections of the notebook.
 
-**Findings** The top five grossig health/wellness apps in order from left to right are:
+## **Findings** 
+
+The top five grossig health/wellness apps in order from left to right are:
 
 <img src='images/top_apps.PNG' width=70% aligment=center>
 

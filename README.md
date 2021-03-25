@@ -7,7 +7,9 @@
 
 ## Abstract: 
 A comparative analysis of top 5 grossing health/wellness apps using
+
 **Natural Laguage Processing (NLP)** and linear **Support Vector Classification** for positive and negative sentiment analysis. 
+
 As well as
 **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
 

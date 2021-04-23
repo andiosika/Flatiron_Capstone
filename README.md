@@ -13,6 +13,8 @@ A comparative analysis of top 5 grossing health/wellness apps using
 as well as
 * **Latent Dirchilet Application (LDA) clustering for deep sentiment analysis** to inform best practices and growth opportunities the world of wellness apps.
 
+Goal: to develop a classification model able to predict if a review will be highly or poorly rated.  Once reviews have been classified, be able to derive insight based on feedback for next-gen developents of products and services
+
 **Business Case/Problem** App reviews can increase conversion rates - higher rated apps are more attractive to reviewers. Gaining insight from these reviews can provide business intelligence for process improvements and future iterations of products.
 > **Questions to be answered:**
 * What are the top grossing health and wellness apps? 

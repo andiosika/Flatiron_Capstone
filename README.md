@@ -31,7 +31,7 @@ The top five grossig health/wellness apps in order from left to right are:
 
 <img src='images/top_apps.PNG' width=70% aligment=center>
 
-As mentioned before, once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative for gaining product improvement insight:
+Once negative and positive sentiment was classified, it became apparent that what was helpful to classify the reviews as 'good' or 'bad' were not too informative for gaining product improvement insight:
 
 <img src='images/neg_words.png' width=35% aligment=left>    <img src='images/pos_words.png' width=35% aligment=right>
 
